@@ -2,12 +2,12 @@ package ie.tudublin;
 
 public class Main {
 
-    public static void starMap() {
+    public static void cafe() {
         String[] a = { "MAIN" };
-        processing.core.PApplet.runSketch(a, new StarMap());
+        processing.core.PApplet.runSketch(a, new Cafe());
     }
 
     public static void main(String[] args) {
-        starMap();
+        cafe();
     }
 }
